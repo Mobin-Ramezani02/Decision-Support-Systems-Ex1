@@ -22,7 +22,7 @@ def ahp_weights(A, max_iter=100):
         w_first = w_new
     return w_first
 
-# --------------------- TOPSIS ---------------------
+# --------------------- TOPSIS ---------------------a
 def topsis(X, weights, is_benefit):
     X = np.array(X, dtype=float)
     w = np.array(weights, dtype=float)
